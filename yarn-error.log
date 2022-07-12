@@ -1,0 +1,59 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @openzeppelin/contracts
+
+PATH: 
+  C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\Akimoto\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Git\cmd;C:\Python27;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Python37\Scripts\;C:\Python37\;C:\Users\Akimoto\AppData\Local\Microsoft\WindowsApps;C:\Users\Akimoto\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Akimoto\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Akimoto\AppData\Local\GitHubDesktop\bin;C:\Users\Akimoto\AppData\Local\Yarn\bin;C:\Users\Akimoto\AppData\Roaming\npm;E:\devel_pro\Android\Sdk\platform-tools;C:\Users\Akimoto\AppData\Local\gitkraken\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.18.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\bit\bsc\presale\BVToken\package.json: Unexpected token / in JSON at position 264
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "bvtoken",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle-config.js",
+    "directories": {
+      "test": "test"
+    },
+    "dependencies": {
+      "react-notifications-component": "3.1.0",
+      "web3modal": "^1.9.4"
+    },
+    "devDependencies": {
+      // "@openzeppelin/contracts": "^3.4.1-solc-0.7-2",
+      // "@openzeppelin/contracts-upgradeable": "^3.4.0",
+      // "@openzeppelin/test-helpers": "^0.5.13",
+      // "@openzeppelin/truffle-upgrades": "^1.9.1",
+      "@truffle/hdwallet-provider": "^1.4.3",
+      "@uniswap/v3-core": "^1.0.0",
+      "@uniswap/v3-periphery": "^1.1.1",
+      "dotenv": "^10.0.0",
+      "truffle": "^5.4.6"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
